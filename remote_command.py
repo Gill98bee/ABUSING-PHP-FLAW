@@ -1,5 +1,11 @@
 #!/bin/python3
 
+#############################
+#                           #
+#    By Gilbert A. Yeboah   #
+#                           #
+#############################
+
 # import requests
 import requests, sys, signal
 
